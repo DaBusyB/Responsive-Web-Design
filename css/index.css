@@ -81,33 +81,56 @@ h1, h2, h3, h4, h5 {
 }
 
 @media (max-width: 768px) {
-    
-    header nav ul {
-     width: 500px;  
+    .container {
+     width: 749px;
     }
 
-    header .logo {
-     align-self: flex-end;
-     margin: 29px 0 0 60px;
+    div header nav ul {
+        margin-top: 40px; 
+        margin-left: 14px;
+        width: 450px;
+        justify-content: space-between;
+        display: flex;
     }
 
-    .cta-text {
-     margin: 0 0 0 99px;
+    .cta {
+     width: 748px; 
+    }
+
+    div .cta .cta-text {
+     margin: 49px 48px 7px 0px;
     }
 
     .top-img {
-     margin: 0 135px 0 0;   
+     margin: 0 12px 0 0;
+    }
+    
+    div .top-content {
+     width: 748px;
     }
 
-    div .main-content .top-content {
-     width: 749px;
+    div .text-lcontent {
+     width: 355px;
+    }
+
+    div .text-rcontent {
+     width: 355px;
+    }
+
+    div .main-content {
+     width: 748px; 
+     margin: 75px 2px 35px 2px;
     }
 
     div .main-content .middle-img {
-     width: 749px;
+     width: 748px;
      display: block;
-     margin: 25px 1px 25px 1px;
+     margin: 25px 0px 25px 0px;
     }
+
+    /* div .bottom-content{
+    width: 749px;
+    } */
 }
 
 @media (max-width: 400px) {
